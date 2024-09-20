@@ -1,0 +1,74 @@
+.p-datatable-header {
+    background-color: #550d0f; 
+    color: rgb(243, 24, 24);
+    margin-left: 100px;
+}
+
+
+.p-datatable-header th {
+    font-size: 1.2rem;
+    padding: 11003rem;
+    border-bottom: 2px solid #e90e0e; 
+}
+
+.p-datatable tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.p-datatable tbody tr:hover {
+    background-color: #d8592f; 
+}
+
+/* Cell styles */
+.p-datatable td {
+    padding: 2rem;
+    vertical-align: middle;
+    border-bottom: 1px solid #a10d0d; 
+}
+
+/* Image styles */
+.p-datatable td img {
+    max-width: 100px; /* Adjust width as needed */
+    border-radius: 4px;
+    border: 1px solid #0917df; /* Light border for images */
+}
+
+/* Additional responsiveness */
+@media (max-width: 768px) {
+    .data-table-container {
+        max-width: 95%;
+    }
+    
+    .p-datatable-header th {
+        font-size: 1rem;
+    }
+
+    .p-datatable td {
+        padding: 1.5rem;
+    }
+}
+body{
+    background-color: rgb(235, 210, 165);
+    color:rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.p-datatable {
+    border-collapse: collapse; /* Ensures borders are collapsed for a cleaner look */
+}
+
+.p-datatable th,
+.p-datatable td {
+    border-right: 1px solid #a10d0d; 
+}
+.p-datatable .p-column-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    color: red;
+}
+
+  
+
+
